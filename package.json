@@ -1,0 +1,25 @@
+{
+  "name": "mmm-displaycmd",
+  "version": "1.0.0",
+  "description": "Display commandline output for the Magic Mirror",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThomasMirlacher/MMM-OralB"
+  },
+  "keywords": [
+    "magic mirror",
+    "smart mirror",
+    "OralB",
+    "module",
+    "Toothbrush"
+  ],
+  "author": "Thomas Mirlacher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThomasMirlacher/MMM-DisplayCmd/issues"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2"
+  },
+  "homepage": "https://github.com/ThomasMirlacher/MMM-DisplayCmd#readme"
+}
