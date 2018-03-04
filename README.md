@@ -19,7 +19,9 @@ Here are examples an entry in `config.js`:
 {
 	module: 'MMM-DisplayCmd',
 	position: 'bottom_left',
-	cmd: '/usr/games/fortune -n 200 -s',
+	config: {
+		cmd: '/usr/games/fortune -n 200 -s'
+	}
 },
 ```
 
@@ -27,8 +29,10 @@ Here are examples an entry in `config.js`:
 {
 	module: 'MMM-DisplayCmd',
 	position: 'bottom_left',
-	cmd: '/usr/bin/uptime',
-	updateInterval: 60,	// update every 60s
+	config: {
+		cmd: '/usr/bin/uptime',
+		updateInterval: 60	// update every 60s
+	}
 },
 ```
 
