@@ -14,11 +14,21 @@ This a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror). 
 
 Add module information to your `~/MagicMirror/config/config.js`.
 
-Here is an example of an entry in `config.js`:
+Here are examples an entry in `config.js`:
 ```
 {
-        module: 'MMM-DisplayCmd',
-        position: 'bottom_left',
+	module: 'MMM-DisplayCmd',
+	position: 'bottom_left',
+	cmd: '/usr/games/fortune -n 200 -s',
+},
+```
+
+```
+{
+	module: 'MMM-DisplayCmd',
+	position: 'bottom_left',
+	cmd: '/usr/bin/uptime',
+	updateInterval: 60,	// update every 60s
 },
 ```
 
